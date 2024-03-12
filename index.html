@@ -1,64 +1,48 @@
-<html lang="pt-BR"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title> rei delas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
-        <h1>Página com menu Lateral</h1>
-    </header>
-    <nav>
-        <!-- NAV - divisória para inserir o menu de navegação -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-<!--Main é a tag principal onde irá alocar toda a parte do conteúdo da nossa página-->
-    <main>
-        <section>
-            <!-- section é seção, divisória de conteúdo -->
-           <h2>Seção1</h2>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aut cum adipisci assumenda totam pariatur odio nemo blanditiis tempora enim minima ipsa debitis, neque quia cumque temporibus fugiat eum optio!</p>
-        </section>
-        <section>
-           <h2>Seção2</h2>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aut cum adipisci assumenda totam pariatur odio nemo blanditiis tempora enim minima ipsa debitis, neque quia cumque temporibus fugiat eum optio!</p>
-        </section>
-        <section>
-            <h2>Seção3</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aut cum adipisci assumenda totam pariatur odio nemo blanditiis tempora enim minima ipsa debitis, neque quia cumque temporibus fugiat eum optio!</p>
-        </section>
-        <!-- <section> -->
-            <!-- form é a tag paar inserimos formulários; que faz a divisão de conteúdo para elementos de frmulários -->
-            <!-- <form> -->
-                <!-- <label>Nome:</label> -->
-                <!-- <input type="text"> -->
-                <!-- <br> -->
+    <!--Links das Fontes e dos Icones-->
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
-                <!-- <label>Sobrenome:</label> -->
-                <!-- <input type="text"> -->
-                <!-- <br> -->
-                <!-- <label>Senha:</label> -->
-                <!-- <input type="password"> -->
-                <!-- <br> -->
-                <!-- <label>Data de Nascimento:</label> -->
-                <!-- <input type="date"> -->
-                <!-- <br> -->
-                <!-- <label>Indique o seu número:</label> -->
-                <!-- <input type="number"> -->
-                <!-- <br> -->
-                <!-- <input type="button" value="Enviar" onclick="alert('Enviado com sucesso')"> -->
-                
-                <!-- value é o texto dentro do botão -->
+<!--Sidebar-->
+<input type="checkbox" id="check">
 
-            </form>
-        </section>
-    </main>
-    <footer>
-        <h3>& copy; Todos os direitos reservados</h3>
-    </footer>
+<label for="check">
+  <i class="fas fa-bars" id="btn"></i>
+  <i class="fas fa-times" id="cancel"></i>
+</label>
 
+<div class="sidebar">
+  
+  <header>Menu</header>
+    
+    <a href="#" class="link-sidebar active">
+      <i class="fas fa-qrcode"></i>
+      <span>Produtos</span>
+    </a>
+    
+    <a href="#" class="link-sidebar">
+      <i class="fas fa-link"></i>
+      <span>Avaliações</span>
+    </a>
 
-</body></html>
+    <a href="#" class="link-sidebar">
+      <i class="far fa-question-circle"></i>
+      <span>Sobre</span>
+    </a>
+
+</div>
+<!--Sidebar-->
+<section>
+    <img src="imagens/beijinho.jpg" alt="beijinho" width="80px">
+</section>
+</body>
+</html>
+
